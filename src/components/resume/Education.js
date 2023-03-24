@@ -12,7 +12,7 @@ function Education() {
       <div className="w-full">
         {/* First education */}
         {/* Title and years */}
-        <div className="py-12 font-titleFont gap-4">
+        <div className="py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2007 - 2011</p>
           <h2 className="text-4xl font-bold">Education Quality</h2>
         </div>
@@ -39,7 +39,7 @@ function Education() {
       </div>
       <div className="w-full">
         {/* Second education */}
-        <div className="py-12 font-titleFont gap-4">
+        <div className="py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2011 - 2015</p>
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
