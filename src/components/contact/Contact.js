@@ -7,7 +7,7 @@ function Contact() {
   return (
     <section
       id="contacts"
-      className="w-full h-[1500px] py-20 border-b-[1px] boader-b-black"
+      className="w-full h-[1000px] py-20 border-b-[1px] boader-b-black"
     >
       <div className="flex justify-center items-center text-center">
         <Title title="contact" des="Contact With Me" />
