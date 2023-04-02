@@ -7,19 +7,19 @@ const Experience = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="flex w-full gap-20 "
+      className="flex flex-col lgl:flex-row w-full gap-10 lgl:gap-20 "
     >
       <div className="w-full">
         {/* First education */}
         {/* Title and years */}
-        <div className="py-12 font-titleFont flex flex-col gap-4">
+        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2011 - 2022</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
 
         {/* left side 3-resume cards */}
         <div
-          className="w-full mt-14 h-[1000px] border-l-[6px] 
+          className="w-full mt-6 lgl:mt-14 h-[1000px] border-l-[6px] 
     border-black border-opacity-30 flex flex-col gap-10"
         >
           <ResumeCard
@@ -34,19 +34,28 @@ const Experience = () => {
             result="8/10"
             des="School math science chemestry, physics, Maths"
           />
-          <ResumeCard />
+          <ResumeCard
+            title="School"
+            subtitle="M.L.B.School Balaghat (M.P.)"
+            result="8/10"
+            des="School math science chemestry, physics, Maths"
+          />
         </div>
       </div>
       <div className="w-full">
         {/* Second education */}
-        <div className="py-12 font-titleFont flex flex-col gap-4">
+        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2011 - 2015</p>
-          <h2 className="text-4xl font-bold">Trainer Experience</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Trainer Experience</h2>
         </div>
         {/* right side 3-resume cards */}
 
         <div
-          className="w-full mt-14 h-[1000px] border-l-[6px] 
+          className="w-full mt-6 lgl:mt-14 
+          h-[1300px] 
+          lgl:h-[1200px] 
+          xl:h-[1000px]
+          border-l-[6px] 
     border-black border-opacity-30 flex flex-col gap-10"
         >
           <ResumeCard

@@ -6,14 +6,14 @@ function Skills() {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="flex w-full gap-20 "
+      className="flex w-full flex-col lgl:flex-row gap-10 lgl:gap-20 "
     >
-      <div className="w-1/2">
+      <div className="w-full lgl:w-1/2">
         <div className="py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px] uppercase">
             Features
           </p>
-          <h2 className="text-4xl font-bold">Design Skils</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Design Skils</h2>
         </div>
 
         <div className="mt-14 w-full flex flex-col gap-6">
@@ -95,13 +95,13 @@ function Skills() {
           </div>
         </div>
       </div>
-      <div className="w-1/2">
+      <div className="w-full lgl:w-1/2">
         {/* Second PART OF DESIGN SKILLS */}
         <div className="py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px] uppercase">
             Features
           </p>
-          <h2 className="text-4xl font-bold">Development Skill</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Development Skill</h2>
         </div>
         <div className="mt-14 w-full flex flex-col gap-6">
           {/* React-100%,Html 5-95% css3-80% javascript-75% software-90% skill */}
