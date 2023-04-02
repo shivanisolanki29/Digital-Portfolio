@@ -7,7 +7,7 @@ function Contact() {
   return (
     <section
       id="contacts"
-      className="w-full h-[1000px] py-20 border-b-[1px] boader-b-black"
+      className="w-full h-auto py-20 border-b-[1px] boader-b-black"
     >
       <div className="flex justify-center items-center text-center">
         <Title title="contact" des="Contact With Me" />
@@ -15,7 +15,7 @@ function Contact() {
       {/* try code */}
       <div className="w-full">
         {/* left part with photo  bg-slate-300 */}
-        <div className="w-full h-auto flex justify-between">
+        <div className="w-full h-1000 flex justify-between">
           <ContactLeft />
           {/* right part with form */}
           <ContactRight />
